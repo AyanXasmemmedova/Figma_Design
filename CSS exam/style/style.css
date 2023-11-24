@@ -1,0 +1,578 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+header {
+  width: 100%;
+  margin: 0 auto;
+  position: absolute;
+  z-index: 1000;
+  top: 0;
+  background-color: transparent;
+}
+header .container {
+  max-width: 1300px;
+  height: 150px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .container .logo {
+  width: 30%;
+}
+header .container .navbar {
+  width: 70%;
+  display: flex;
+  align-items: center;
+}
+header .container .navbar ul {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 25px;
+}
+header .container .navbar ul li {
+  color: white;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.intro-section {
+  width: 100%;
+  height: 971px;
+  background-image: url(/image/Header.jpg);
+  background-size: contain;
+  background-position: top right;
+  background-repeat: no-repeat;
+}
+.intro-section .container {
+  max-width: 1300px;
+}
+.intro-section .container .text {
+  position: absolute;
+  right: 200px;
+  top: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  color: white;
+  gap: 30px;
+  text-align: start;
+}
+.intro-section .container .text h1 {
+  font-size: 70px;
+}
+.intro-section .container .text p {
+  font-size: 25px;
+  font-weight: lighter;
+}
+.intro-section .container .text a span {
+  color: white;
+  padding: 10px 20px;
+  background-color: #982a8d;
+}
+
+main {
+  width: 100%;
+  margin: 0 auto;
+}
+main .section1 {
+  width: 100%;
+  margin: 0 auto;
+}
+main .section1 .container {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+main .section1 .container .title {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+main .section1 .container .title h2 {
+  font-size: 40px;
+}
+main .section1 .container .title h2 span {
+  color: #ac30a0;
+}
+main .section1 .container .title p {
+  font-size: 20px;
+}
+main .section1 .container .boxes {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 120px;
+}
+main .section1 .container .boxes .box {
+  width: 250px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+main .section1 .container .boxes .box .image {
+  width: 100%;
+  height: 350px;
+}
+main .section1 .container .boxes .box .image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+main .section1 .container .boxes .box .text {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  gap: 10px;
+}
+main .section1 .container .boxes .box .text h3 {
+  font-size: 27px;
+}
+main .section1 .container .boxes .box .text h3 #first {
+  color: #ac3030;
+}
+main .section1 .container .boxes .box .text h3 #second {
+  color: #4130ac;
+}
+main .section1 .container .boxes .box .text h3 #third {
+  color: #ac30a0;
+}
+main .section2 {
+  width: 100%;
+  margin: 0 auto;
+}
+main .section2 .container {
+  max-width: 1300px;
+  margin: 150px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+main .section2 .container .title {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+main .section2 .container .title h3 {
+  font-size: 30px;
+}
+main .section2 .container .title h3 span {
+  color: #ac30a0;
+}
+main .section2 .container .title p {
+  font-size: 20px;
+}
+main .section2 .container .boxes {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+}
+main .section2 .container .boxes .box img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+main .section3 {
+  width: 100%;
+  margin: 0 auto;
+}
+main .section3 .container {
+  max-width: 1300px;
+  margin: 150px auto;
+  background-image: url(/image/Rectangle\ 9.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 150px 100px;
+  gap: 30px;
+}
+main .section3 .container .text {
+  color: white;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+main .section3 .container .text h2 {
+  font-size: 30px;
+}
+main .section3 .container .text p {
+  font-size: 20px;
+}
+main .section3 .container .btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+main .section3 .container .btn a {
+  background-color: #ac30a0;
+  padding: 20px 30px;
+}
+main .section3 .container .btn a span {
+  color: white;
+  font-size: 22px;
+}
+
+footer {
+  width: 100%;
+  margin: 0 auto;
+}
+footer .container {
+  max-width: 1300px;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .container .contact {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+footer .container .contact span {
+  color: #ac30a0;
+}
+footer .container .contact h2 {
+  font-size: 20px;
+}
+footer .container .contact p {
+  font-size: 15px;
+}
+footer .container .buchen {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+footer .container .buchen h2 {
+  font-size: 20px;
+}
+footer .container .buchen p {
+  font-size: 15px;
+}
+footer .container .buchen a {
+  color: white;
+  background-color: #ac30a0;
+  padding: 10px 80px;
+  font-size: 18px;
+  text-align: center;
+}
+footer .container .sitemap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 20px;
+  text-align: right;
+}
+footer .container .sitemap span {
+  color: #ac30a0;
+}
+footer .container .sitemap h2 {
+  font-size: 20px;
+}
+footer .container .sitemap p {
+  font-size: 15px;
+}
+
+/* *****************************************************Responsive design**************************************************  */
+@media only screen and (max-width: 1300px) {
+  header {
+    padding: 20px;
+  }
+  .intro-section .text {
+    position: absolute;
+    right: 120px;
+  }
+  main .section1,
+  main .section2,
+  main .section3 {
+    padding: 20px;
+  }
+  footer {
+    padding: 20px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  header .container .navbar {
+    padding: 46px;
+  }
+  .intro-section {
+    height: 700px;
+  }
+  .intro-section .container .text {
+    top: 150px;
+    right: 44px;
+  }
+  .intro-section .container .text h1 {
+    font-size: 48px;
+  }
+  .intro-section .container .text p {
+    font-size: 25px;
+  }
+  main.section1.p {
+    font-size: 30px;
+  }
+  main .section3 .container {
+    padding: 100px 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  footer .container .buchen a {
+    padding: 10px 20px;
+  }
+}
+@media only screen and (max-width: 894px) {
+  main .section3 .container {
+    padding: 84px 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  footer .container {
+    gap: 15px;
+  }
+  footer .container .buchen a {
+    padding: 5px 20px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  header .container .navbar {
+    padding: 0px;
+  }
+  header .container .navbar ul li {
+    font-size: 12px;
+  }
+  .intro-section {
+    height: 600px;
+  }
+  .intro-section .container .text {
+    top: 150px;
+    right: 20px;
+  }
+  .intro-section .container .text h1 {
+    font-size: 30px;
+  }
+  .intro-section .container .text p {
+    font-size: 15px;
+  }
+  main .section3 .container {
+    padding: 44px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 720px) {
+  main .section3 .container {
+    padding: 44px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  main .section3 .container .text h2 {
+    font-size: 25px;
+  }
+  main .section3 .container .text p {
+    font-size: 15px;
+  }
+  main .section3 .container .btn {
+    gap: 60px;
+  }
+  main .section3 .container .btn a {
+    padding: 10px 20px;
+  }
+  footer .container {
+    gap: 15px;
+  }
+  footer .container .contact h2 {
+    font-size: 14px;
+  }
+  footer .container .contact p {
+    font-size: 10px;
+  }
+  footer .container .buchen h2 {
+    font-size: 14px;
+  }
+  footer .container .buchen p {
+    font-size: 10px;
+  }
+  footer .container .buchen a {
+    font-size: 14px;
+  }
+  footer .container .sitemap h2 {
+    font-size: 14px;
+  }
+  footer .container .sitemap p {
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 620px) {
+  header .container .navbar {
+    padding: 0px;
+  }
+  header .container .navbar ul li {
+    font-size: 10px;
+  }
+  .intro-section {
+    height: 545px;
+    background-position-x: 103px;
+  }
+  .intro-section .container .text {
+    top: 150px;
+    right: 0px;
+  }
+  .intro-section .container .text h1 {
+    font-size: 30px;
+  }
+  .intro-section .container .text p {
+    font-size: 14px;
+  }
+  main .section3 .container {
+    padding: 44px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  main .section3 .container .text h2 {
+    font-size: 20px;
+  }
+  main .section3 .container .text p {
+    font-size: 10px;
+  }
+  main .section3 .container .btn {
+    gap: 30px;
+  }
+  main .section3 .container .btn a {
+    padding: 10px 20px;
+  }
+}
+@media only screen and (max-width: 520px) {
+  main .section3 .container {
+    background-size: 536px;
+    border-radius: 21px;
+  }
+  main .section3 .container .text h2 {
+    font-size: 17px;
+  }
+  main .section3 .container .text p {
+    font-size: 10px;
+  }
+  main .section3 .container .btn {
+    gap: 30px;
+  }
+  main .section3 .container .btn a {
+    padding: 3px 15px;
+  }
+  main .section3 .container .btn a span {
+    font-size: 12px;
+  }
+  footer .container {
+    gap: 15px;
+  }
+  footer .container .contact h2 {
+    font-size: 14px;
+  }
+  footer .container .contact p {
+    font-size: 10px;
+  }
+  footer .container .buchen h2 {
+    font-size: 12px;
+  }
+  footer .container .buchen p {
+    font-size: 10px;
+  }
+  footer .container .buchen a {
+    font-size: 7px;
+  }
+  footer .container .sitemap h2 {
+    font-size: 16px;
+  }
+  footer .container .sitemap p {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 440px) {
+  header .container .navbar {
+    padding: 0px;
+  }
+  header .container .navbar ul {
+    gap: 10px;
+  }
+  header .container .navbar ul li {
+    font-size: 8px;
+  }
+  .intro-section {
+    background-size: 400px;
+  }
+  .intro-section .container .text h1 {
+    font-size: 20px;
+  }
+  .intro-section .container .text p {
+    font-size: 10px;
+  }
+  .intro-section .container .text a span {
+    padding: 7px 10px;
+  }
+  footer .container {
+    gap: 15px;
+  }
+  footer .container .contact h2 {
+    font-size: 13px;
+  }
+  footer .container .contact p {
+    font-size: 10px;
+  }
+  footer .container .buchen {
+    gap: 14px;
+  }
+  footer .container .sitemap {
+    gap: 38px;
+  }
+}/*# sourceMappingURL=style.css.map */
